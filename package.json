@@ -11,10 +11,7 @@
     "webpack-hot-middleware": "^2.25.0"
   },
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --progress --watch",
-    "server": "webpack serve --open",
-    "go": "webpack && webpack serve --open"
+    "start": "node ./server.js"
   },
   "dependencies": {
     "css-loader": "^5.2.1",
