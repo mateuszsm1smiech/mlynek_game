@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "three": "^0.126.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-middleware": "^5.0.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-hot-middleware": "^2.25.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --progress --watch",
+    "server": "webpack serve --open",
+    "go": "webpack && webpack serve --open"
+  },
+  "dependencies": {
+    "css-loader": "^5.2.1",
+    "html-webpack-plugin": "^5.3.1",
+    "mongodb": "^3.6.9",
+    "socket.io": "^4.1.2",
+    "style-loader": "^2.0.0"
+  }
+}
